@@ -27,3 +27,17 @@
     cursor: pointer;
     left: 0;
 }
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu li {
+    text-decoration: none;
+    margin: 10px;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: large;
+}
