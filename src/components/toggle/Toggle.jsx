@@ -14,9 +14,10 @@ const Toggle = () => {
   return (
     <div>
       <ul className='menu'>
-        <Link to={'/'}> <li>Home</li> </Link>
-        <Link to={'/portfolio'}><li>My Portfolio</li></Link>
-        <Link to={'/'}><li>My Resume</li></Link>
+        <Link to={'/'}> <li><h3>Home</h3></li> </Link>
+        <Link to={'/portfolio'}><li><h3>Projects</h3></li></Link>
+        <a href="https://teslaelectronics.ca/wp-content/uploads/2022/05/Jestin_Kuriakose-Updated-Resume.pdf" target="_blank"><li><h3>Resume</h3></li></a>
+        <a href="https://github.com/jestin-kuriakose" target="_blank"><li><h3>GitHub</h3></li></a>
       </ul>
       <div className='t'>
           <img src={Sun} className='t-icon'/>

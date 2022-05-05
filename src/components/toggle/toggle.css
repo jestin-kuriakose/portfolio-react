@@ -35,9 +35,14 @@
 }
 
 .menu li {
-    text-decoration: none;
+    list-style-type: none;
     margin: 10px;
     padding: 0 10px;
     font-weight: 500;
     font-size: large;
+    color: black;
 }
+.menu a {
+    text-decoration: none;
+}
+

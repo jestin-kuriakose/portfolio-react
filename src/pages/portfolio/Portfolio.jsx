@@ -1,13 +1,13 @@
 import React from 'react'
 import Toggle from '../../components/toggle/Toggle'
-import ProductList from '../../components/productList/ProductList'
+import ProjectList from '../../components/projectList/ProjectList'
 
 const Portfolio = () => {
   return (
     
     <>
       <Toggle/>
-      <ProductList/>
+      <ProjectList/>
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./intro.css"
 import Me from "../../img/my-image.png"
+import Jestin from "../../img/Jestin.jpg"
 const Intro = () => {
   return (
     <div className='i'>
@@ -11,13 +12,13 @@ const Intro = () => {
                 <div className='i-title'>
                     <div className='i-title-wrapper'>
                         <div className='i-title-item'>Web Developer</div>
+                        <div className='i-title-item'>Full-Stack Developer</div>
+                        <div className='i-title-item'>React Developer</div>
                         <div className='i-title-item'>UI/UX Designer</div>
-                        <div className='i-title-item'>Photographer</div>
-                        <div className='i-title-item'>Writer</div>
                         <div className='i-title-item'>Content Creator</div>
                     </div>
                 </div>
-                <p className='i-desc'>I'm a multi-talented human with knowledge and experience in front-end and back-end web development. I currently work remotely as a freelance web developer and are open for new oppurtunities.</p>
+                <p className='i-desc'>This Portfolio is designed using React and i have used React Router, Use Context and EmailJs Libraries.</p>
             </div>
             <svg
                 width="75"
@@ -78,7 +79,7 @@ const Intro = () => {
         </div>
         <div className='i-right'>
             <div className='i-bg'></div>
-            <img src={Me} alt='' className='i-img'/>
+            <img src={Jestin} alt='' className='i-img'/>
         </div>
     </div>
   )

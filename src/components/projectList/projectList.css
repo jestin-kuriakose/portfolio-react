@@ -19,15 +19,6 @@
     margin: 20px 0px;
 }
 
-.pl-desc button {
-    margin-top: 10px;
-    text-decoration: none;
-}
-.pl-desc a {
-    text-decoration: none;
-    color: white;
-}
-
 .pl-list {
     display: flex;
     flex-wrap: wrap;
@@ -43,11 +34,6 @@
         width: 100%;
     }
     .pl-desc {
-        display:block;
-    }
-    .pl-list {
-        display: flex;
-        flex-direction: column;
-        
+        display: none;
     }
 }
