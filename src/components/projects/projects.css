@@ -1,11 +1,16 @@
-.p1 {
+.pmain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p {
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
-
+    flex: 1;
 }
 
 .p-browser {
@@ -25,21 +30,32 @@
     background-color: white;
 }
 
-.p-img1{
+.p-img{
     width: 100%;
     transition: all 10s ease;
 }
 
-.p:hover .p-img1 {
+.p:hover .p-img {
     transform: translateY(-100%);
+}
+
+.desc {
+    flex: 2;
+}
+.desc button {
+    margin: 10px 10px;
+}
+.desc p {
+    padding: 10px 0;
+}
+.desc a {
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 480px) {
     .p {
         width: 40%;
         height: 20vh;
-    }
-    .p1 {
-        width: 100%;
     }
 }

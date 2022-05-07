@@ -2,16 +2,19 @@ import "./product.css"
 
 const Product = ({img, link}) => {
   return (
-    <div className='p'>
+   
+    <div className='p1'>
         <div className="p-browser">
             <div className="p-circle"></div>
             <div className="p-circle"></div>
             <div className="p-circle"></div>
         </div>
         <a href={link} target="_blank" rel="noreferrer">
-            <img src={img} alt="" className="p-img"></img>
+            <img src={img} alt="" className="p-img1"></img>
         </a>
     </div>
+    
+    
   )
 }
 
