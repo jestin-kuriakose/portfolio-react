@@ -18,7 +18,7 @@ const Intro = () => {
                         <div className='i-title-item'>Content Creator</div>
                     </div>
                 </div>
-                <p className='i-desc'>This Portfolio is designed using React and i have used React Router, Use Context and EmailJs Libraries.</p>
+                <p className='i-desc'>This Portfolio is designed using React and implemented React Router, Use Context and EmailJs Libraries.</p>
             </div>
             <svg
                 width="75"
